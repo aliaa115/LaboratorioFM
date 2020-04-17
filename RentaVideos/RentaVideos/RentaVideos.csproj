@@ -98,5 +98,8 @@
   <ItemGroup>
     <None Include="Resources\FondoSCM.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Procesos\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
