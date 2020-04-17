@@ -110,11 +110,6 @@
   <ItemGroup>
     <None Include="Resources\FondoSCM.png" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Mantenimientos\Query\" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\094-hammer-1.png" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
