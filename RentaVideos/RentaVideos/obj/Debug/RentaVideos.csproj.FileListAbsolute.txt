@@ -46,3 +46,4 @@
 \\Mac\Home\Documents\Universidad\9no somestre\042 Ingenieria de Software\Laboratorio\gitHub\LaboratorioFM\RentaVideos\RentaVideos\obj\Debug\RentaVideos.csproj.CopyComplete
 \\Mac\Home\Documents\Universidad\9no somestre\042 Ingenieria de Software\Laboratorio\gitHub\LaboratorioFM\RentaVideos\RentaVideos\obj\Debug\RentaVideos.exe
 \\Mac\Home\Documents\Universidad\9no somestre\042 Ingenieria de Software\Laboratorio\gitHub\LaboratorioFM\RentaVideos\RentaVideos\obj\Debug\RentaVideos.pdb
+\\Mac\Home\Documents\Universidad\9no somestre\042 Ingenieria de Software\Laboratorio\gitHub\LaboratorioFM\RentaVideos\RentaVideos\obj\Debug\RentaVideos.Mantenimientos.Forms.Mantenimiento.resources
