@@ -56,7 +56,7 @@ namespace RentaVideos.Mantenimientos.Procesos
                     return (alias5, "1", "categorias", "de Categorias", "CATEGORIA", 0);
 
                 case 6:
-                    string[] alias6 = { "Material", "Nombre", "Descripcion", "Categoria", "Genero", "Autor", "Precio", "Estado" };
+                    string[] alias6 = { "Material", "Nombre", "Descripcion", "Categoria", "Genero", "Autor", "Precio", "Existencias", "Estado" };
                     return (alias6, "1", "material", "de Materiales", "MATERIAL", 1);
 
                 case 7:
