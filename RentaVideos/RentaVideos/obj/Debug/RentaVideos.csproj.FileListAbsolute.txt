@@ -7,7 +7,6 @@
 \\Mac\Home\Documents\Universidad\9no somestre\042 Ingenieria de Software\Laboratorio\gitHub\LaboratorioFM\RentaVideos\RentaVideos\bin\Debug\RentaVideos.exe
 \\Mac\Home\Documents\Universidad\9no somestre\042 Ingenieria de Software\Laboratorio\gitHub\LaboratorioFM\RentaVideos\RentaVideos\bin\Debug\RentaVideos.pdb
 \\Mac\Home\Documents\Universidad\9no somestre\042 Ingenieria de Software\Laboratorio\gitHub\LaboratorioFM\RentaVideos\RentaVideos\bin\Debug\CapaDatos.dll
-\\Mac\Home\Documents\Universidad\9no somestre\042 Ingenieria de Software\Laboratorio\gitHub\LaboratorioFM\RentaVideos\RentaVideos\bin\Debug\CapaDeDiseno.dll
 \\Mac\Home\Documents\Universidad\9no somestre\042 Ingenieria de Software\Laboratorio\gitHub\LaboratorioFM\RentaVideos\RentaVideos\bin\Debug\CapaDiseno.dll
 \\Mac\Home\Documents\Universidad\9no somestre\042 Ingenieria de Software\Laboratorio\gitHub\LaboratorioFM\RentaVideos\RentaVideos\bin\Debug\CrystalDecisions.Windows.Forms.dll
 \\Mac\Home\Documents\Universidad\9no somestre\042 Ingenieria de Software\Laboratorio\gitHub\LaboratorioFM\RentaVideos\RentaVideos\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
@@ -95,3 +94,6 @@
 \\Mac\Home\Documents\Universidad\9no somestre\042 Ingenieria de Software\Laboratorio\gitHub\master\LaboratorioFM\RentaVideos\RentaVideos\obj\Debug\RentaVideos.pdb
 \\Mac\Home\Documents\Universidad\9no somestre\042 Ingenieria de Software\Laboratorio\gitHub\master\LaboratorioFM\RentaVideos\RentaVideos\obj\Debug\RentaVideos.Mantenimientos.Forms.Mantenimiento.resources
 \\Mac\Home\Documents\Universidad\9no somestre\042 Ingenieria de Software\Laboratorio\gitHub\master\LaboratorioFM\RentaVideos\RentaVideos\bin\Debug\CapaDeDiseno.dll
+\\Mac\Home\Documents\Universidad\9no somestre\042 Ingenieria de Software\Laboratorio\gitHub\LaboratorioFM\RentaVideos\RentaVideos\obj\Debug\RentaVideos.Mantenimientos.Forms.Mantenimiento.resources
+\\Mac\Home\Documents\Universidad\9no somestre\042 Ingenieria de Software\Laboratorio\gitHub\LaboratorioFM\RentaVideos\RentaVideos\obj\Debug\RentaVideos.Procesos.Renta.RentaEncabezadoDetalle.resources
+\\Mac\Home\Documents\Universidad\9no somestre\042 Ingenieria de Software\Laboratorio\gitHub\LaboratorioFM\RentaVideos\RentaVideos\obj\Debug\RentaVideos.Procesos.Renta.Rentas.resources

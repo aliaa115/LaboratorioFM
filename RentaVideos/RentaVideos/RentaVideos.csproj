@@ -43,6 +43,9 @@
     <Reference Include="CapaDiseno">
       <HintPath>W:\Bienestar S.A\Formación\DLLS\Seguridad\CapaDiseno\bin\Debug\CapaDiseno.dll</HintPath>
     </Reference>
+    <Reference Include="CapaVista">
+      <HintPath>..\..\..\..\ComboAuto\CapaVista\bin\Debug\CapaVista.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -77,6 +80,20 @@
     <Compile Include="MDI_FilmMagic.Designer.cs">
       <DependentUpon>MDI_FilmMagic.cs</DependentUpon>
     </Compile>
+    <Compile Include="Procesos\Querys\SQL-materiales.cs" />
+    <Compile Include="Procesos\Querys\SQL-renta.cs" />
+    <Compile Include="Procesos\Renta\RentaEncabezadoDetalle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Procesos\Renta\RentaEncabezadoDetalle.Designer.cs">
+      <DependentUpon>RentaEncabezadoDetalle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\Renta\Rentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Procesos\Renta\Rentas.Designer.cs">
+      <DependentUpon>Rentas.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Mantenimientos\Forms\Mantenimiento.resx">
@@ -84,6 +101,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MDI_FilmMagic.resx">
       <DependentUpon>MDI_FilmMagic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\Renta\RentaEncabezadoDetalle.resx">
+      <DependentUpon>RentaEncabezadoDetalle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\Renta\Rentas.resx">
+      <DependentUpon>Rentas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -111,6 +134,59 @@
   <ItemGroup>
     <None Include="Resources\FondoSCM.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\019-idea.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\026-calendar-2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\027-shopping-cart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\046-agenda.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\059-file.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\059-file1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\065-edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\066-edit-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\083-floppy-disk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\091-trolley.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\092-package.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\108-inbox-4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\149-notepad-2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\159-pencil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\179-open-book-2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\191-search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\223-trash.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\243-exit.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
