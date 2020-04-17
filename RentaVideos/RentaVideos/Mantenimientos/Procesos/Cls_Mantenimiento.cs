@@ -36,7 +36,7 @@ namespace RentaVideos.Mantenimientos.Procesos
             switch (tabla)
             {
                 case 1:
-                    string[] alias1 = { "Bono", "Nombre", "Monto", "Fecha Bono", "Estado" };
+                    string[] alias1 = { "Bono", "Membresia", "Monto", "Fecha Bono", "Estado" };
                     return (alias1, "1", "bono", "de Bonos", "BONO", 1);
 
                 case 2:
@@ -74,14 +74,14 @@ namespace RentaVideos.Mantenimientos.Procesos
             switch (tabla)
             {
                 //bono
-                case 2:
+                case 1:
                     switch (no)
                     {
                         case 1:
                             return ("cliente", "MEMBRESIA", 0);
                     }
                     break;
-
+                    
                 //material
                 case 6:
                     switch (no)

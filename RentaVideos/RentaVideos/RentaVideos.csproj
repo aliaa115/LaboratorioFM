@@ -36,8 +36,9 @@
     <Reference Include="CapaDatos">
       <HintPath>W:\Bienestar S.A\Formación\DLLS\Seguridad\CapaDatos\bin\Debug\CapaDatos.dll</HintPath>
     </Reference>
-    <Reference Include="CapaDeDiseno">
-      <HintPath>..\..\..\..\Navegador\CapaDeDiseno\bin\Debug\CapaDeDiseno.dll</HintPath>
+    <Reference Include="CapaDeDiseno, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Navegador\CapaDeDiseno\bin\Debug\CapaDeDiseno.dll</HintPath>
     </Reference>
     <Reference Include="CapaDiseno">
       <HintPath>W:\Bienestar S.A\Formación\DLLS\Seguridad\CapaDiseno\bin\Debug\CapaDiseno.dll</HintPath>
