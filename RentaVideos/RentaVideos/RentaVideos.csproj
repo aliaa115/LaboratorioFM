@@ -38,12 +38,13 @@
     </Reference>
     <Reference Include="CapaDeDiseno, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\Navegador\CapaDeDiseno\bin\Debug\CapaDeDiseno.dll</HintPath>
+      <HintPath>..\..\..\..\Navegador\CapaDeDiseno\bin\Debug\CapaDeDiseno.dll</HintPath>
     </Reference>
     <Reference Include="CapaDiseno">
       <HintPath>W:\Bienestar S.A\Formación\DLLS\Seguridad\CapaDiseno\bin\Debug\CapaDiseno.dll</HintPath>
     </Reference>
-    <Reference Include="CapaVista">
+    <Reference Include="CapaVista, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\ComboAuto\CapaVista\bin\Debug\CapaVista.dll</HintPath>
     </Reference>
     <Reference Include="System" />

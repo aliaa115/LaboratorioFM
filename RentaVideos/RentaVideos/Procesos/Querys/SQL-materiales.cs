@@ -33,8 +33,7 @@ namespace RentaVideos.Procesos.Querys
                 MessageBox.Show(ex.ToString(), "Error al obtener reporte");
                 return ;
             }
-
-            return ;
+            
         }
 
     }

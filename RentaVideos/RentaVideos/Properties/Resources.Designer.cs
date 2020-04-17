@@ -63,8 +63,6 @@ namespace RentaVideos.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-<<<<<<< HEAD
-=======
         internal static System.Drawing.Bitmap _019_idea {
             get {
                 object obj = ResourceManager.GetObject("019-idea", resourceCulture);
@@ -175,7 +173,6 @@ namespace RentaVideos.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
->>>>>>> 0c7db5f65a0fd357e138011b82f1af852fc29e55
         internal static System.Drawing.Bitmap _094_hammer_1 {
             get {
                 object obj = ResourceManager.GetObject("094-hammer-1", resourceCulture);
@@ -186,8 +183,6 @@ namespace RentaVideos.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-<<<<<<< HEAD
-=======
         internal static System.Drawing.Bitmap _108_inbox_4 {
             get {
                 object obj = ResourceManager.GetObject("108-inbox-4", resourceCulture);
@@ -258,7 +253,6 @@ namespace RentaVideos.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
->>>>>>> 0c7db5f65a0fd357e138011b82f1af852fc29e55
         internal static System.Drawing.Bitmap FondoSCM {
             get {
                 object obj = ResourceManager.GetObject("FondoSCM", resourceCulture);

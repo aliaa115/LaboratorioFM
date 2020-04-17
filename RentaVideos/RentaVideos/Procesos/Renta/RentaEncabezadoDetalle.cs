@@ -15,8 +15,8 @@ namespace RentaVideos.Procesos.Renta
     {
         SQL_materiales materiales = new SQL_materiales();
         SQL_renta sql_renta = new SQL_renta();
-        string prod;
-        int codProd;
+        string prod = "";
+        int codProd = 0;
 
         public RentaEncabezadoDetalle()
         {

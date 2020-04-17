@@ -36,7 +36,13 @@
             this.Gpb_detalle = new System.Windows.Forms.GroupBox();
             this.Lbl_precioTotal = new System.Windows.Forms.Label();
             this.Dgv_movimientoDetalle = new System.Windows.Forms.DataGridView();
+            this.Codigo = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.CodiProd = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Producto = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.PrecioProducto = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Cantidad = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Grp_producto = new System.Windows.Forms.GroupBox();
+            this.Cbo_producto = new CapaVista.Combo();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.Btn_buscar = new System.Windows.Forms.Button();
             this.Txt_producto = new System.Windows.Forms.TextBox();
@@ -51,7 +57,6 @@
             this.Gpb_agregar = new System.Windows.Forms.GroupBox();
             this.Btn_agregar = new System.Windows.Forms.Button();
             this.Grp_DatosMovimiento = new System.Windows.Forms.GroupBox();
-            this.Cbo_producto = new CapaVista.Combo();
             this.Pnl_datos = new System.Windows.Forms.Panel();
             this.Cbo_empleado = new CapaVista.Combo();
             this.Cbo_membresia = new CapaVista.Combo();
@@ -66,11 +71,6 @@
             this.Lbl_codigo = new System.Windows.Forms.Label();
             this.Txt_codigo = new System.Windows.Forms.TextBox();
             this.Lbl_membresia = new System.Windows.Forms.Label();
-            this.Codigo = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.CodiProd = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Producto = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.PrecioProducto = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Cantidad = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Tbl_movimientoInventario.SuspendLayout();
             this.Pnl_titulo.SuspendLayout();
             this.Pnl_desarrollo.SuspendLayout();
@@ -195,6 +195,36 @@
             this.Dgv_movimientoDetalle.Size = new System.Drawing.Size(878, 168);
             this.Dgv_movimientoDetalle.TabIndex = 25;
             // 
+            // Codigo
+            // 
+            this.Codigo.HeaderText = "Codigo";
+            this.Codigo.Name = "Codigo";
+            this.Codigo.ReadOnly = true;
+            // 
+            // CodiProd
+            // 
+            this.CodiProd.HeaderText = "Coigo Producto";
+            this.CodiProd.Name = "CodiProd";
+            this.CodiProd.ReadOnly = true;
+            // 
+            // Producto
+            // 
+            this.Producto.HeaderText = "Producto";
+            this.Producto.Name = "Producto";
+            this.Producto.ReadOnly = true;
+            // 
+            // PrecioProducto
+            // 
+            this.PrecioProducto.HeaderText = "Precio Producto";
+            this.PrecioProducto.Name = "PrecioProducto";
+            this.PrecioProducto.ReadOnly = true;
+            // 
+            // Cantidad
+            // 
+            this.Cantidad.HeaderText = "Cantidad";
+            this.Cantidad.Name = "Cantidad";
+            this.Cantidad.ReadOnly = true;
+            // 
             // Grp_producto
             // 
             this.Grp_producto.Controls.Add(this.Cbo_producto);
@@ -214,6 +244,14 @@
             this.Grp_producto.TabIndex = 15;
             this.Grp_producto.TabStop = false;
             this.Grp_producto.Text = "Materiales";
+            // 
+            // Cbo_producto
+            // 
+            this.Cbo_producto.Location = new System.Drawing.Point(105, 27);
+            this.Cbo_producto.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Cbo_producto.Name = "Cbo_producto";
+            this.Cbo_producto.Size = new System.Drawing.Size(213, 30);
+            this.Cbo_producto.TabIndex = 50;
             // 
             // groupBox1
             // 
@@ -392,13 +430,6 @@
             this.Grp_DatosMovimiento.TabStop = false;
             this.Grp_DatosMovimiento.Text = "Datos de Renta";
             // 
-            // Cbo_producto
-            // 
-            this.Cbo_producto.Location = new System.Drawing.Point(105, 27);
-            this.Cbo_producto.Name = "Cbo_producto";
-            this.Cbo_producto.Size = new System.Drawing.Size(213, 30);
-            this.Cbo_producto.TabIndex = 50;
-            // 
             // Pnl_datos
             // 
             this.Pnl_datos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(232)))), ((int)(((byte)(232)))));
@@ -431,6 +462,7 @@
             // Cbo_membresia
             // 
             this.Cbo_membresia.Location = new System.Drawing.Point(607, 43);
+            this.Cbo_membresia.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Cbo_membresia.Name = "Cbo_membresia";
             this.Cbo_membresia.Size = new System.Drawing.Size(253, 32);
             this.Cbo_membresia.TabIndex = 50;
@@ -557,36 +589,6 @@
             this.Lbl_membresia.Size = new System.Drawing.Size(95, 19);
             this.Lbl_membresia.TabIndex = 29;
             this.Lbl_membresia.Text = "MEMBRESIA";
-            // 
-            // Codigo
-            // 
-            this.Codigo.HeaderText = "Codigo";
-            this.Codigo.Name = "Codigo";
-            this.Codigo.ReadOnly = true;
-            // 
-            // CodiProd
-            // 
-            this.CodiProd.HeaderText = "Coigo Producto";
-            this.CodiProd.Name = "CodiProd";
-            this.CodiProd.ReadOnly = true;
-            // 
-            // Producto
-            // 
-            this.Producto.HeaderText = "Producto";
-            this.Producto.Name = "Producto";
-            this.Producto.ReadOnly = true;
-            // 
-            // PrecioProducto
-            // 
-            this.PrecioProducto.HeaderText = "Precio Producto";
-            this.PrecioProducto.Name = "PrecioProducto";
-            this.PrecioProducto.ReadOnly = true;
-            // 
-            // Cantidad
-            // 
-            this.Cantidad.HeaderText = "Cantidad";
-            this.Cantidad.Name = "Cantidad";
-            this.Cantidad.ReadOnly = true;
             // 
             // RentaEncabezadoDetalle
             // 

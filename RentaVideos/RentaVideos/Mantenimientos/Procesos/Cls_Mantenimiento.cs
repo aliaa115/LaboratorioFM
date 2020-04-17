@@ -87,7 +87,7 @@ namespace RentaVideos.Mantenimientos.Procesos
                     switch (no)
                     {
                         case 1:
-                            return ("categorias", "CATEGORIA", 0);
+                            return ("categoria", "CATEGORIA", 0); 
                     }
                     break;
 

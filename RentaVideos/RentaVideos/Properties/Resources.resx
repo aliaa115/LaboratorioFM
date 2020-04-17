@@ -124,8 +124,6 @@
   <data name="094-hammer-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\094-hammer-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-<<<<<<< HEAD
-=======
   <data name="019-idea" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\019-idea.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -180,5 +178,4 @@
   <data name="243-exit" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\243-exit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
->>>>>>> 0c7db5f65a0fd357e138011b82f1af852fc29e55
 </root>

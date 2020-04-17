@@ -16,7 +16,7 @@ namespace RentaVideos.Procesos.Renta
         public Rentas()
         {
             InitializeComponent();
-            SQL_rentaEncabezado rentaEncabezado = new SQL_rentaEncabezado();
+            SQL_renta rentaEncabezado = new SQL_renta();
             rentaEncabezado.obtenerAllEncabezados(Dgv_lista);
         }
 

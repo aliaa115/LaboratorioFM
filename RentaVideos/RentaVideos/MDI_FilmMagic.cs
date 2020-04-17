@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using CapaDiseno;
 using RentaVideos.Mantenimientos.Forms;
+using RentaVideos.Procesos.Renta;
 
 namespace RentaVideos
 {
@@ -108,6 +109,12 @@ namespace RentaVideos
         private void ayudasToolStripMenuItem_Click(object sender, EventArgs e)
         {
             mant(7);
+        }
+
+        private void rentaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Rentas rentas = new Rentas();
+            rentas.Show();
         }
     }
 }
